@@ -19,9 +19,9 @@ public class MainActivity extends AppCompatActivity {
 
 
         financeLayout = findViewById(R.id.layoutFinance);
-        cropLayout = findViewById(R.id.layoutCrop);
+        //cropLayout = findViewById(R.id.layoutCrop);
         animalLayout = findViewById(R.id.layoutAnimal);
-        productLayout = findViewById(R.id.layoutProducts);
+        //productLayout = findViewById(R.id.layoutProducts);
 
         financeLayout.setOnClickListener(new View.OnClickListener() {
             @Override
