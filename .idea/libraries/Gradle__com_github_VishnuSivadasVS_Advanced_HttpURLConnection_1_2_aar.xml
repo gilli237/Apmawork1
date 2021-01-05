@@ -4,9 +4,10 @@
       <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/427687311348ad7d6b71e9dbfd9d1142/jetified-Advanced-HttpURLConnection-1.2/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/427687311348ad7d6b71e9dbfd9d1142/jetified-Advanced-HttpURLConnection-1.2/res" />
       <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/427687311348ad7d6b71e9dbfd9d1142/jetified-Advanced-HttpURLConnection-1.2/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/427687311348ad7d6b71e9dbfd9d1142/jetified-Advanced-HttpURLConnection-1.2/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/427687311348ad7d6b71e9dbfd9d1142/jetified-Advanced-HttpURLConnection-1.2/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/427687311348ad7d6b71e9dbfd9d1142/jetified-Advanced-HttpURLConnection-1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fbeabb133833b695ea1eb6b2d333596f/jetified-Advanced-HttpURLConnection-1.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fbeabb133833b695ea1eb6b2d333596f/jetified-Advanced-HttpURLConnection-1.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fbeabb133833b695ea1eb6b2d333596f/jetified-Advanced-HttpURLConnection-1.2/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
