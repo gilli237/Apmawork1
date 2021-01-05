@@ -120,164 +120,160 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/layoutHeader">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+
+        -------------------------- expenses -----------------------------------------
+
+        <!-- <LinearLayout
+             android:id="@+id/layoutProducts"
+             android:layout_width="171dp"
+             android:layout_height="172dp"
+             android:layout_marginLeft="15dp"
+             android:layout_marginTop="20dp"
+             android:background="@drawable/white_regtangle_background"
+             android:gravity="center"
+             android:orientation="vertical"
+             android:padding="15dp"
+             app:layout_constraintBottom_toBottomOf="parent"
+             app:layout_constraintStart_toEndOf="@id/layoutAnimal"
+             app:layout_constraintTop_toBottomOf="@id/layoutFinance"
+             app:layout_constraintVertical_bias="1.0">
+
+             <ImageView
+                 android:layout_width="100dp"
+                 android:layout_height="100dp"
+                 android:layout_margin="8dp"
+                 android:contentDescription="@string/ampa_login_logo"
+                 android:padding="8dp"
+                 android:src="@drawable/products" />
+
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="@font/poppinsmedium"
+                 android:gravity="center"
+                 android:text="@string/ProductImgText"
+                 android:textColor="@color/grey"
+                 android:textSize="20sp"
+                 android:textStyle="bold" />
+
+         </LinearLayout>
+         -->
+
+        <LinearLayout
+            android:id="@+id/layoutFinance"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="1dp">
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/white_regtangle_background"
 
--------------------------- expenses -----------------------------------------
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="15dp"
+            app:layout_constraintEnd_toStartOf="@id/layoutFinance"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            >
 
-            <LinearLayout
-                android:id="@+id/layoutProducts"
-                android:layout_width="171dp"
-                android:layout_height="172dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/white_regtangle_background"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="15dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toEndOf="@id/layoutAnimal"
-                app:layout_constraintTop_toBottomOf="@id/layoutFinance"
-                app:layout_constraintVertical_bias="1.0">
-
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_margin="8dp"
-                    android:contentDescription="@string/ampa_login_logo"
-                    android:padding="8dp"
-                    android:src="@drawable/products" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="8dp"
+                android:contentDescription="@string/ampa_login_logo"
+                android:padding="8dp"
+                android:src="@drawable/finance"/>
 
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/poppinsmedium"
-                    android:gravity="center"
-                    android:text="@string/ProductImgText"
-                    android:textColor="@color/grey"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/layoutFinance"
+            <TextView
+                android:id="@+id/financeText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="4dp"
-                android:layout_marginLeft="200dp"
-                android:layout_marginTop="15dp"
-                android:background="@drawable/white_regtangle_background"
-
                 android:gravity="center"
-                android:orientation="vertical"
-                android:padding="15dp"
-                app:layout_constraintEnd_toStartOf="@id/layoutFinance"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                >
+                android:text="@string/financeImgText"
+                android:textColor="@color/grey"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/poppinsmedium"/>
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_margin="8dp"
-                    android:contentDescription="@string/ampa_login_logo"
-                    android:padding="8dp"
-                    android:src="@drawable/finance"/>
+        </LinearLayout>
+        ------------------------------  crops ----------------------------------------
+        <!--     <LinearLayout
+                 android:id="@+id/layoutCrop"
+                 android:layout_height="wrap_content"
+                 android:background="@drawable/white_regtangle_background"
+                 android:layout_marginTop="22dp"
+                 android:gravity="center"
+                 android:orientation="vertical"
+                 android:padding="15dp"
+                 app:layout_constraintStart_toEndOf="@id/layoutProducts"
+                 app:layout_constraintEnd_toEndOf="@id/layoutAnimal"
+                 app:layout_constraintTop_toTopOf="@id/layoutFinance"
+                 android:layout_width="0dp">
 
-
-                <TextView
-                    android:id="@+id/financeText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="@string/financeImgText"
-                    android:textColor="@color/grey"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:fontFamily="@font/poppinsmedium"/>
-
-            </LinearLayout>
-------------------------------  crops ----------------------------------------
-            <LinearLayout
-                android:id="@+id/layoutCrop"
-                android:layout_height="wrap_content"
-                android:background="@drawable/white_regtangle_background"
-                android:layout_marginTop="22dp"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="15dp"
-                app:layout_constraintStart_toEndOf="@id/layoutProducts"
-                app:layout_constraintEnd_toEndOf="@id/layoutAnimal"
-                app:layout_constraintTop_toTopOf="@id/layoutFinance"
-                android:layout_width="0dp">
-
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_margin="8dp"
-                    android:contentDescription="@string/ampa_login_logo"
-                    android:padding="8dp"
-                    android:src="@drawable/crops"/>
+                 <ImageView
+                     android:layout_width="100dp"
+                     android:layout_height="100dp"
+                     android:layout_margin="8dp"
+                     android:contentDescription="@string/ampa_login_logo"
+                     android:padding="8dp"
+                     android:src="@drawable/crops"/>
 
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="@string/CropsImgText"
-                    android:textColor="@color/grey"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:fontFamily="@font/poppinsmedium"/>
+                 <TextView
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:gravity="center"
+                     android:text="@string/CropsImgText"
+                     android:textColor="@color/grey"
+                     android:textSize="20sp"
+                     android:textStyle="bold"
+                     android:fontFamily="@font/poppinsmedium"/>
 
-            </LinearLayout>
+             </LinearLayout>-->
 
-            --------------------------- animal ------------------------------------
+        --------------------------- animal ------------------------------------
 
-            --------------------------- products ------------------------------------
+        --------------------------- products ------------------------------------
 
-            <LinearLayout
-                android:id="@+id/layoutAnimal"
+        <LinearLayout
+            android:id="@+id/layoutAnimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="200dp"
+
+            android:layout_marginTop="20dp"
+            android:background="@drawable/white_regtangle_background"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="15dp"
+            app:layout_constraintStart_toStartOf="@id/layoutFinance"
+            app:layout_constraintTop_toBottomOf="@id/layoutFinance">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="8dp"
+                android:contentDescription="@string/ampa_login_logo"
+                android:padding="8dp"
+                android:src="@drawable/cow" />
+
+
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="4dp"
-                android:layout_marginLeft="200dp"
-
-                android:layout_marginTop="20dp"
-                android:background="@drawable/white_regtangle_background"
+                android:fontFamily="@font/poppinsmedium"
                 android:gravity="center"
-                android:orientation="vertical"
-                android:padding="15dp"
-                app:layout_constraintStart_toStartOf="@id/layoutFinance"
-                app:layout_constraintTop_toBottomOf="@id/layoutFinance">
+                android:text="@string/AnimalImgText"
+                android:textColor="@color/grey"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_margin="8dp"
-                    android:contentDescription="@string/ampa_login_logo"
-                    android:padding="8dp"
-                    android:src="@drawable/cow" />
+        </LinearLayout>
 
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/poppinsmedium"
-                    android:gravity="center"
-                    android:text="@string/AnimalImgText"
-                    android:textColor="@color/grey"
-                    android:textSize="20sp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
 
 
     </ScrollView>
